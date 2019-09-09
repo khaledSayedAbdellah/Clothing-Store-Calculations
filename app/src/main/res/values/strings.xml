@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">malabes</string>
+    <string name="tab_text_1">الربح</string>
+    <string name="tab_text_2">المبيعات</string>
+    <string name="tab_text_3">المخزن</string>
+    <string name="action_settings_stock">اعدادات المخزن</string>
+    <string name="action_settings_sell">اعدادات المبيعات</string>
+    <string name="action_all_payed">اضافه مصروفات</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_load">تحميل</string>
+    <string name="action_reset">reset</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

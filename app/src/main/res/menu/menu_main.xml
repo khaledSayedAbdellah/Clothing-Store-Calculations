@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.khale.mlabes.MainActivity">
+
+
+
+    <item
+        android:id="@+id/action_settings_stock"
+        android:orderInCategory="100"
+        android:title="@string/action_settings_stock"
+        app:showAsAction="never"
+        android:onClick="sett_stock__clicked"/>
+
+    <item
+        android:id="@+id/action_settings_sell"
+        android:orderInCategory="100"
+        android:title="@string/action_settings_sell"
+        app:showAsAction="never"
+        android:onClick="sett_sell_clicked"/>
+
+    <item
+        android:id="@+id/action_pay"
+        android:orderInCategory="100"
+        android:title="@string/action_all_payed"
+        app:showAsAction="never"
+        android:onClick="all_payed_clicked"/>
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="@string/action_save"
+        app:showAsAction="never"
+        android:onClick="save_clicked"/>
+
+    <item
+        android:id="@+id/action_load_data"
+        android:orderInCategory="100"
+        android:title="@string/action_load"
+        app:showAsAction="never"
+        android:onClick="load_clicked"/>
+
+    <item
+        android:id="@+id/action_reset_all"
+        android:orderInCategory="100"
+        android:title="@string/action_reset"
+        app:showAsAction="never"
+        android:tooltipText="ازاله جميع البيانات"
+        android:onClick="reset_clicked"/>
+
+
+</menu>
